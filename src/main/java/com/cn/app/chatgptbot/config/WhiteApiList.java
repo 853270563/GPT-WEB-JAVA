@@ -13,17 +13,17 @@ public class WhiteApiList {
     static {
 
         //登录
-        list.add("/*/user/token/login");
-        list.add("/*/user/token/admin/login");
+        list.add("/user/token/login");
+        list.add("/user/token/admin/login");
         //注册
-        list.add("/*/user/token/register");
+        list.add("/user/token/register");
         //支付回调
-        list.add("/*/order/callback");
+        list.add("/order/callback");
 
         //swagger
-        list.add("/*/swagger-resources");
-        list.add("/*/doc.html");
-        list.add("/*/webjars/**");
+        list.add("/swagger-resources");
+        list.add("/doc.html");
+        list.add("/webjars/**");
     }
 
 }
