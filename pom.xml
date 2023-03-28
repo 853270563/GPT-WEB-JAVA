@@ -154,7 +154,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
+	<finalName>GPT-SERVER.jar</finalName>
 	</build>
 
 </project>
