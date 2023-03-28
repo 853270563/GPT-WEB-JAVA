@@ -2,7 +2,7 @@ server:
   port: 8000
   servlet:
     # 应用的访问路径
-    context-path: /
+    context-path: /api
   tomcat:
     uri-encoding: utf-8
 spring:
