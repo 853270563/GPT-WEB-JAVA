@@ -2,7 +2,7 @@ FROM luanyutop/mvnrepository AS builder
 ENV TIME_ZONE Asia/Shanghai
 WORKDIR /workspace
 COPY . .
-RUN mvn clean install -Dmaven.test.skip=true
+RUN mvn clean package -Dmaven.test.skip=true
 # 以下为运行容器 切换 JDK 到对应版本
 # jdk8对应：mcr.microsoft.com/java/jre:8-zulu-alpine
 # jdk17对应：mcr.microsoft.com/java/jre:17-zulu-alpine
