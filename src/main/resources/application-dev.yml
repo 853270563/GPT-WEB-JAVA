@@ -20,9 +20,9 @@ spring:
     maxOpenPreparedStatements: 20
   data:
     redis:
-      host: 127.0.0.1
-      port: 6380
-      password: redispassword
+      host: 192.168.1.102
+      port: 6379
+      password:
       database: 0
       jedis:
         pool:

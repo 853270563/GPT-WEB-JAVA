@@ -1,10 +1,13 @@
 server:
   port: 8000
+  servlet:
+    # 应用的访问路径
+    context-path: /api
   tomcat:
     uri-encoding: utf-8
 spring:
   profiles:
-    active: dev
+    active: prod
 jackson:
   default-property-inclusion: non_null
 #    设置上传文件大小
